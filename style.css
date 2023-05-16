@@ -278,6 +278,9 @@ header h1 {
 .projects span:hover {
     color: white;
 }
+form{
+    position: relative;
+}
 .sliders-hover {
     display: block;
     top: 100px;
@@ -292,7 +295,7 @@ header h1 {
     border-radius: 25px 25px 25px 25px;
     background-color: white;
 }
-.sliders-hover:hover {
+form:hover .sliders-hover {
     opacity: 1;
 }
 .hover-tittle {

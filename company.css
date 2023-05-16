@@ -122,17 +122,16 @@ header h1 {
     font-weight: 700;
     font-size: 32px;
     font-family: 'Inter', sans-serif;
-    margin-left: 130px;
+    margin-left: 15px;
     margin-bottom: 50px;
 }
 .vacancy-info {
     margin: 0 auto;
-    display: flex;
-    background: #EFEFEF;
-    border: 0.5px solid #D9D9D9;
     border-radius: 0px 0px 30px 30px;  
     width: 1643px; 
-    justify-content: center;
+}
+table {
+    background: #EFEFEF;
 }
 th {
     background: #087DBF;
@@ -142,8 +141,10 @@ th {
     font-size: 24px;
     text-align: left;
     padding-left: 10px;
+    padding: 10px;
 }
 td {
+    padding: 10px;
     border-bottom: 1px solid #999;
     font-weight: 400;
     font-size: 24px;
