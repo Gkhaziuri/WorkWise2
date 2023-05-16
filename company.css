@@ -12,6 +12,10 @@
     margin-bottom: 40px;
     margin-top: 40px;
 }
+.full-header a {
+    text-decoration: none;
+    color: black;
+}
 .header-block {
     margin: 0 auto;
     display: flex;
