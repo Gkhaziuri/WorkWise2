@@ -129,11 +129,13 @@
     font-weight: 700;
 }
 .footer-info {
+    margin-top: 54px;
     width: 100%;
     display: flex;
     padding: 30px;
     background-color: black;
     border: 1px solid black;
+    justify-content: space-between;
 }
 .copyright {
     display: flex;
@@ -183,16 +185,17 @@
         display: none;
     }
     .freelancing-hiring {
-        margin-right: 40px;
+        margin-right: 20px;
+        display: block;
     }
     .freelancing-hiring h5 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .footer-info {
         padding: 10px;
     }
     .copyright {
-        padding-left: 100px;
+        padding-left: 10px;
     }
     .copyright p {
         font-size: 10px;
