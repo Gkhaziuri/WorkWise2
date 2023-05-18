@@ -43,6 +43,9 @@
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
 }
+.navigation li:last-child {
+    margin-right: 0;
+}
 .login-join {
     background: #F4F4F4;
     border-radius: 30px;
@@ -54,7 +57,7 @@
 }
 .container {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 1440px
 }
 .website-info {
     display: flex;
@@ -121,7 +124,6 @@
 }
 .footer-info {
     margin-top: 175px;
-    max-width: 1920px;
     display: flex;
     padding: 30px;
     background-color: black;
