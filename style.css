@@ -5,17 +5,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-.full-header {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
 .header-block {
-    margin: 0 auto;
+    justify-content: space-between;
     display: flex;
     align-items: center;
+    padding: 55px 0;
+}
+.logo-wrapper {
+    display: flex;
 }
 .header-block h1 {
     font-weight: 700;
@@ -34,9 +31,6 @@
 .navigation a {
     text-decoration: none;
     color: black;
-}
-.navigation {
-    margin-left: 1050px;
 }
 .navigation ul { 
     display: flex;
@@ -60,14 +54,12 @@
 }
 .container {
     margin: 0 auto;
-    padding: 5%;
-    width: 100%;
+    max-width: 80%;
 }
 .website-info {
-    margin: 0 auto;
     display: flex;
-    width: 100%;
-    max-width: 1800px;
+    justify-content: space-between;
+    align-items: center;
 }
 .left-block {
     width: 50%;
@@ -83,7 +75,6 @@
     margin-bottom: 40px;
 }
 .welcome-img {
-    margin: 0 auto;
     max-width: 800px;
 } 
 .options {
@@ -129,8 +120,8 @@
     font-weight: 700;
 }
 .footer-info {
-    margin-top: 54px;
-    width: 100%;
+    margin-top: 175px;
+    max-width: 1920px;
     display: flex;
     padding: 30px;
     background-color: black;

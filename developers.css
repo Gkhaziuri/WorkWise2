@@ -50,6 +50,7 @@ header h1 {
     width: 100%;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .search-block form {
     display: flex;
@@ -62,7 +63,7 @@ header h1 {
     height: 28px;
     left: 30px;
 }
-.search-block input {
+.search {
     width: 1087px;
     height: 87px;
     border-top-left-radius: 62px;
@@ -214,8 +215,13 @@ header h1 {
     border-radius: 0px 0px 25px 25px;
     background-color: white;
 }
-.talent-hover:hover {
+.talent-block:hover + .talent-hover {
     opacity: 1;
+}
+.talent-wrapper {
+    position: relative;
+    width: 500px;
+    height: 87px;
 }
 .talent {
     display: flex;
@@ -332,7 +338,8 @@ form:hover .sliders-hover {
     margin-bottom: 20px;
 }
 .price-range {
-    width: 200px;
+    width: 100%;
+    text-align: center;
 }
 .ratings-block {
     display: flex;
